@@ -149,11 +149,11 @@ st.markdown('<p class="sub-header">Detect spam emails using Machine Learning</p>
 if not check_api_connection():
     st.markdown("""
     <div class="error-box">
-        <h3>⚠️ API Connection Error</h3>
-        <p>Unable to connect to the backend API. Please make sure:</p>
+        <h3>⚠️ Server is sleeping </h3>
+        <p>Server is saving power....</p>
         <ul>
-            <li>The backend server is running on <code>http://localhost:8000</code></li>
-            <li>Run the backend with: <code>python backend.py</code> or <code>uvicorn backend:app --reload</code></li>
+            <li>The backend server is Starting on Render <code>Wait for 30 sec and refresh </code></li>
+            <li>Till then sip your coffee : ) </li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
